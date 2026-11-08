@@ -1,0 +1,88 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#071321">
+
+    <title>SI Skill Connect</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+</head>
+<body>
+
+    <header class="header">
+        <div class="logo">SI <span>SKILL</span></div>
+        <button class="profile-btn" onclick="showMessage('Profile coming soon!')">👤</button>
+    </header>
+
+    <main>
+        <section class="hero">
+            <p class="tagline">YOUR SKILL - OUR PLATFORM</p>
+            <h1>Find Your <span>Perfect Service</span></h1>
+            <p class="subtitle">
+                Discover talented professionals and get quality services.
+            </p>
+
+            <div class="search-box">
+                <input type="text" id="searchInput" placeholder="Search services...">
+                <button onclick="searchServices()">🔍</button>
+            </div>
+        </section>
+
+        <section class="services">
+            <div class="section-heading">
+                <h2>Explore Services</h2>
+                <span>Discover more</span>
+            </div>
+
+            <div class="service-grid" id="serviceGrid">
+
+                <div class="service-card" data-name="graphic design">
+                    <div class="service-icon">🎨</div>
+                    <h3>Graphic Design</h3>
+                    <p>Creative visual designs</p>
+                </div>
+
+                <div class="service-card" data-name="web development">
+                    <div class="service-icon">💻</div>
+                    <h3>Web Development</h3>
+                    <p>Modern website solutions</p>
+                </div>
+
+                <div class="service-card" data-name="video editing">
+                    <div class="service-icon">🎬</div>
+                    <h3>Video Editing</h3>
+                    <p>Professional video editing</p>
+                </div>
+
+                <div class="service-card" data-name="digital marketing">
+                    <div class="service-icon">📈</div>
+                    <h3>Digital Marketing</h3>
+                    <p>Grow your online presence</p>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="provider-section">
+            <h2>Are You a Skilled Professional?</h2>
+            <p>Join our platform and showcase your skills.</p>
+            <button onclick="showMessage('Provider registration coming soon!')">
+                Become a Provider →
+            </button>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 SI Skill Connect</p>
+        <p>Your Skill - Our Platform</p>
+    </footer>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
+
